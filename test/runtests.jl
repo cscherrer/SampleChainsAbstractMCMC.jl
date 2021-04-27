@@ -7,7 +7,7 @@ using Test
     using AbstractMCMC
 
     # Generate a set of data from the posterior we want to estimate.
-    data = rand(Normal(0, 1), 30);
+    data = randn(30);
 
     # Define the components of a basic model.
     insupport(θ) = θ[2] >= 0;
