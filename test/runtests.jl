@@ -1,11 +1,10 @@
 using SampleChainsAbstractMCMC
 using Test
+using AdvancedMH
+using AbstractMCMC
+using Distributions
 
 @testset "SampleChainsAbstractMCMC.jl" begin
-    # Import the package.
-    using AdvancedMH
-    using AbstractMCMC
-
     # Generate a set of data from the posterior we want to estimate.
     data = randn(30);
 
