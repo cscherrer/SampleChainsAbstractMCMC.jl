@@ -63,7 +63,7 @@ function SampleChains.initialize!(rng::Random.AbstractRNG, ::Type{AbstractMCMCCh
     info = chainvec(info0)
     meta = (model = model, sampler = spl)
     state = (rng=rng, state=Ref(state))
-    transform = (; samplemap, statemap)
+    transform = (samplemap=samplemap, statemap=statemap)
     
     AbstractMCMCChain(samples, info, meta, state, transform)
 end
