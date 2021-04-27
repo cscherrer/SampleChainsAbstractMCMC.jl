@@ -8,10 +8,7 @@ using AbstractMCMC
 
 using Reexport
 @reexport using SampleChains
-using NestedTuples
-using ElasticArrays
 using ConcreteStructs
-using MappedArrays
 using Random
 using TupleVectors
 
