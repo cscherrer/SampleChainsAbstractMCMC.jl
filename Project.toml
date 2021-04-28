@@ -13,6 +13,7 @@ SampleChains = "754583d1-7fc4-4dab-93b5-5eaca5c9622e"
 TupleVectors = "615932cf-77b6-4358-adcd-5b7eba981d7e"
 
 [compat]
+TupleVectors = "0.1"
 julia = "1"
 
 [extras]
