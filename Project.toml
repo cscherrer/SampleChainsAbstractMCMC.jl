@@ -15,7 +15,7 @@ TupleVectors = "615932cf-77b6-4358-adcd-5b7eba981d7e"
 AbstractMCMC = "3"
 ConcreteStructs = "0.2"
 Reexport = "1"
-SampleChains = "0.4"
+SampleChains = "0.4, 0.5"
 TupleVectors = "0.1"
 julia = "1"
 
